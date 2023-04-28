@@ -10,3 +10,17 @@
     background-size: cover;
     background-position: center;
 }
+
+.i-1{
+    color:lightsalmon;
+}
+
+.navbar-brand{
+    color: lightsalmon;
+    text-shadow: 0 0 10px orange;
+}
+.nav-link{
+    color: lightsalmon;
+    text-shadow: 0 0 10px orange;
+    float: right;
+}
