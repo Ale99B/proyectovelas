@@ -403,3 +403,106 @@ footer i:hover{
 }
 
 /* producto - fin */
+
+/* contacto - inicia */
+
+.contacto-c{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 0px 30px 0px;
+    margin-bottom: 0px;
+}
+
+.Formulario{
+    background-image: url(img/pexels-eberhard-grossgasteiger-2310713.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0px;    
+}
+
+form{
+    width: 100%;
+    min-width: 300px;
+    opacity: 0.5;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: rgb(164, 47, 4);
+}
+
+h1.formulario{
+    text-align: center;
+    color: darkred;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+.header-c span{
+    color: darkslateblue;
+}
+.form__label{
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+}
+.enviar{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: darkseagreen;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.enviar:hover{
+    background-color: darkkhaki;
+}
+
+
+.form__input{
+    width: 100%;
+    height: 45%;
+    background-color: palevioletred;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid aqua;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(23, 18, 13);
+}
+
+
+.form__text{
+    width: 100%;
+    background-color: palevioletred;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid aqua;
+}
+.form__text::placeholder{
+    font-size: 20px;
+}
+
+@media only screen and (min-width:320px){
+    .contacto-c{
+        text-align: center;
+        font-size: 20px;
+        padding: 40px 0px 30px 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .contacto-c{
+        font-size: 70px;
+        padding: 65px 0px 40px 0px;
+    }
+}
+/* contacto - fin */
