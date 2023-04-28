@@ -546,3 +546,111 @@ h1.formulario{
 
 
 /* servicios - fin */
+
+/* nosotros - inicio */
+
+.header-n{
+    background-image: url(img/pexels-eberhard-grossgasteiger-2310713.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px 100px 0px;
+    margin-bottom: 100px;
+}
+.nosotros-n{
+    text-align: center;
+    padding: 0px;
+    color: rgb(12, 79, 79);
+    text-shadow: 0 0 15px aqua;
+}
+
+.article-n{
+    background-color: rgb(232, 185, 99);
+    padding: 30px 0px 20px 0px;
+    margin-bottom: 100px;
+}
+.sobre-n{
+    text-align: center;
+    font-size: 30px;
+}
+.p-n{
+    text-align: center;
+    font-size: 20px;
+}
+
+.team-n{
+    display:flex ;
+    justify-content: space-between;
+    background-color: rgb(174, 101, 101);
+    padding: 30px;
+}
+
+.card{
+    height: 500px;
+    width: 30%;
+    background-color: rgb(22, 88, 108);
+    border: 3px solid rgb(110, 101, 19);
+    box-shadow: 2px 2px 15px 1px gold;
+}
+.card:hover{
+    transform: scale(1.09);
+    transition: all 0.9s;
+}
+
+.card1 .card-img{
+    background-image: url(img/artist-g256747b0f_640.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.card2 .card-img{
+    background-image: url(img/artist-g256747b0f_640.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 15px;
+}.card3 .card-img{
+    background-image: url(img/artist-g256747b0f_640.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 15px;
+}
+h4.n{
+    text-align: center;
+    font-size: 25px;
+    color: orange;
+    text-shadow: 0px 0px 15px coral;
+    margin-bottom: 15px;
+}
+
+h5.n{
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    text-shadow: 0px 0px 15px black;
+    margin-bottom: 15px;
+}
+p.n{
+    text-align: center;
+    font-size: 15px;
+    color: cyan;
+    text-shadow: 0px 0px 15px black;
+}
+
+.card-redes{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.card-redes a{
+    text-decoration: none;
+    color: rgb(168, 134, 141);
+    font-size: 40px;
+    letter-spacing: 20px;  
+}
+.card-redes i:hover{
+    color: cyan;
+}
+
+/* nosotros - fin */
