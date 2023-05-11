@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner-image {
+  background-image: url(../img/playa.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.banner-image .i-1 {
+  color: lightsalmon;
+  text-shadow: 0px 0px 15px orange;
+}
+
+.navbar-brand {
+  color: lightsalmon;
+  text-shadow: 0 0 10px orange;
+}
+
+.nav-link {
+  color: lightsalmon;
+  text-shadow: 0px 0px 15px orange;
+  float: right;
+}
+
+.header-1 {
+  text-align: center;
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 20px 10% 20px 10%;
+  margin-bottom: 0px;
+}
+
+.header-2 {
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 20px 10% 20px 10%;
+  margin-bottom: 0px;
+}
+
+aside.col-sm-12.col-md-6 {
+  height: 300px;
+  background-color: cadetblue;
+}
+
+.nleft {
+  background-image: url(../img/artista.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.aside-1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.aside-2 {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  color: sienna;
+  width: 30%;
+  background-color: aquamarine;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid orange;
+}
+
+.btn:hover {
+  background-color: goldenrod;
+  border: 2px solid aquamarine;
+}
+
+.navbar-brand {
+  color: lightsalmon;
+  text-shadow: 0 0 10px orange;
+}
+
+.nav-link {
+  color: lightsalmon;
+  text-shadow: 0px 0px 15px orange;
+  float: right;
+}
+
+h2.galeria {
+  text-align: center;
+  background-color: teal;
+  color: lightsalmon;
+  text-shadow: 0 0 15px orange;
+  font-size: 40px;
+  padding: 30px 0px 20px 0px;
+  margin-bottom: 0px;
+}
+
+.galeria-flex {
+  display: flex;
+  width: 100%;
+  height: 430px;
+}
+
+.galeria-flex img {
+  width: 0px;
+  flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+  transition: all 2s;
+}
+
+.galeria-flex img:hover {
+  cursor: crosshair;
+  width: 70%;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.galeria2-grids {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(1, 97, 97);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 300px);
+  grid-gap: 30px;
+}
+
+.alena-zadorozhnaya-icon {
+  background-image: url("../img/alena-zadorozhnaya.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.artista-icon {
+  background-image: url("../img/artista.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.boy-gade-icon {
+  background-image: url("../img/boy-gade.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.ceramic-icon {
+  background-image: url("../img/ceramic.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.christmas-icon {
+  background-image: url("../img/christmas.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.cottonbro-estatente-icon {
+  background-image: url("../img/cottonbro-estatente.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.cottonbro-studio-icon {
+  background-image: url("../img/cottonbro-studio.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.playa-icon {
+  background-image: url("../img/playa.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(55%);
+}
+
+.alena-zadorozhnaya-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.artista-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.boy-gade-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.playa-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.christmas-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.cottonbro-estatente-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.cottonbro-studio-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.ceramic-icon:hover {
+  cursor: crosshair;
+  filter: grayscale(0%);
+  transform: scale(1.09);
+  transition: all 0.9s;
+  box-shadow: 5px 5px 0px black;
+}
+
+.footer-p {
+  height: auto;
+  width: 100%;
+  background-color: teal;
+  color: orange;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+footer i {
+  font-size: 50px;
+  letter-spacing: 20px;
+  margin-top: 20px;
+  color: rgb(243, 118, 73);
+}
+
+footer i:hover {
+  color: rgb(186, 62, 17);
+}
+
+@media only screen and (min-width: 320px) {
+  .galeria2-grids {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+  }
+  .footer-p {
+    font-size: 20px;
+  }
+  footer i {
+    font-size: 45px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .galeria2-grids {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 280px);
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .nav-link {
+    font-size: 22px;
+  }
+  h2.galeria {
+    font-size: 50px;
+    padding: 45px 0px 25px 0px;
+  }
+  .item {
+    height: 280px;
+  }
+  .footer-p {
+    font-size: 27px;
+  }
+  footer i {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .item1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .item2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .item3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .item6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .item7 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+  .item8 {
+    grid-template-columns: 1/2;
+    grid-row: 4/5;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .galeria2-grids {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 380px);
+  }
+  .navbar-brand {
+    font-size: 40px;
+  }
+  .nav-link {
+    font-size: 28px;
+  }
+  h2.galeria {
+    font-size: 70px;
+    padding: 65px 0px 40px 0px;
+  }
+  .item {
+    height: 380px;
+  }
+  .footer-p {
+    font-size: 35px;
+  }
+  footer i {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  .item1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .item2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .item3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .item6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .item7 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+  .item8 {
+    grid-template-columns: 1/2;
+    grid-row: 4/5;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .galeria2-grids {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 400px);
+  }
+  .navbar-brand {
+    font-size: 50px;
+  }
+  .nav-link {
+    font-size: 35px;
+  }
+  h2.galeria {
+    font-size: 80px;
+    padding: 85px 0px 55px 0px;
+  }
+  .galeria-flex {
+    height: 600px;
+  }
+  .item {
+    height: 400px;
+  }
+  .footer-p {
+    font-size: 50px;
+  }
+  footer i {
+    font-size: 65px;
+    margin-bottom: 20px;
+  }
+  .item1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .item2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .item3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .item6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .item7 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+  .item8 {
+    grid-template-columns: 1/2;
+    grid-row: 4/5;
+  }
+}
+.contacto-c {
+  background-color: blanchedalmond;
+  text-align: center;
+  font-size: 50px;
+  padding: 40px 0px 30px 0px;
+  margin-bottom: 0px;
+}
+
+.formulario {
+  background-image: url(../img/cielo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+form {
+  width: 100%;
+  min-width: 300px;
+  opacity: 0.5;
+  margin: auto;
+  margin-top: 0px;
+  color: rgb(164, 47, 4);
+}
+
+h1.formulario {
+  text-align: center;
+  color: darkred;
+  padding-bottom: 16px;
+  font-weight: 500;
+}
+
+.header-c span {
+  color: darkslateblue;
+}
+
+.form__label {
+  display: block;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.enviar {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: darkseagreen;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0px 20px 0px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.enviar:hover {
+  background-color: darkkhaki;
+}
+
+.form__input {
+  width: 100%;
+  height: 45%;
+  background-color: palevioletred;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid aqua;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: rgb(23, 18, 13);
+}
+
+.form__text {
+  width: 100%;
+  background-color: palevioletred;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid aqua;
+}
+
+.form__text::-moz-placeholder {
+  font-size: 20px;
+}
+
+.form__text::placeholder {
+  font-size: 20px;
+}/*# sourceMappingURL=estilos.css.map */
