@@ -524,6 +524,139 @@ footer i:hover {
     grid-row: 4/5;
   }
 }
+.header-n {
+  background-image: url(../img/cielo.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px 100px 0px;
+  margin-bottom: 100px;
+}
+.header-n .nosotros-n {
+  text-align: center;
+  padding: 0px;
+  color: rgb(12, 79, 79);
+  text-shadow: 0 0 15px aqua;
+}
+
+.article-n {
+  background-color: rgb(232, 185, 99);
+  padding: 30px 0px 20px 0px;
+  margin-bottom: 100px;
+}
+.article-n .sobre-n {
+  text-align: center;
+  font-size: 30px;
+}
+.article-n .p-n {
+  text-align: center;
+  font-size: 20px;
+}
+
+.team-n {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(174, 101, 101);
+  padding: 30px;
+}
+.team-n .card {
+  height: 500px;
+  width: 30%;
+  background-color: rgb(22, 88, 108);
+  border: 3px solid rgb(110, 101, 19);
+  box-shadow: 2px 2px 15px 1px gold;
+}
+.team-n .card:hover {
+  transform: scale(1.09);
+  transition: all 0.9s;
+}
+.team-n .card1 .card-img {
+  background-image: url(../img/artista.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.team-n .card2 .card-img {
+  background-image: url(../img/artista.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.team-n .card3 .card-img {
+  background-image: url(../img/artista.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.team-n h4.n {
+  text-align: center;
+  font-size: 25px;
+  color: orange;
+  text-shadow: 0px 0px 15px coral;
+  margin-bottom: 15px;
+}
+.team-n h5.n {
+  text-align: center;
+  font-size: 15px;
+  color: aliceblue;
+  text-shadow: 0px 0px 15px black;
+  margin-bottom: 15px;
+}
+.team-n p.n {
+  text-align: center;
+  font-size: 15px;
+  color: cyan;
+  text-shadow: 0px 0px 15px black;
+}
+.team-n .card-redes {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+.team-n .card-redes a {
+  text-decoration: none;
+  color: rgb(168, 134, 141);
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+.team-n .card-redes i:hover {
+  color: cyan;
+}
+
+.servicios {
+  background-color: darkcyan;
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0px 25px 0px;
+  color: aquamarine;
+  text-shadow: 0 0 15px black;
+  margin-bottom: 0px;
+}
+
+.servicios-s {
+  background-color: rgb(12, 79, 79);
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+.servicios-s .caja {
+  background-color: rgba(225, 212, 224, 0.843);
+  text-align: center;
+  color: rgb(12, 79, 79);
+  text-shadow: 0 0 5px aqua;
+  font-size: 40px;
+  border: 2px solid wheat;
+  height: 300px;
+  padding: 20px;
+}
+.servicios-s .p-s {
+  text-align: center;
+  font-size: 25px;
+  padding: 30px 20% 0px 20%;
+}
+
 .contacto-c {
   background-color: blanchedalmond;
   text-align: center;
@@ -532,12 +665,14 @@ footer i:hover {
   margin-bottom: 0px;
 }
 
+.maps {
+  height: 28rem;
+}
+
 .formulario {
   background-image: url(../img/cielo.jpg);
   background-attachment: fixed;
   background-size: cover;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 form {
