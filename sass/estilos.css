@@ -79,6 +79,72 @@ aside.col-sm-12.col-md-6 {
   border: 2px solid aquamarine;
 }
 
+a {
+  text-decoration: none;
+}
+
+.card-footer-g {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(../img/cielo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card-footer-g .footer-t {
+  font-size: 35px;
+  padding-bottom: 10px;
+  color: lightsalmon;
+}
+.card-footer-g .p-fi1 {
+  font-size: 15px;
+  color: orange;
+  margin-top: 75px;
+}
+.card-footer-g .p-fi2 {
+  font-size: 15px;
+  text-align: left;
+  color: aquamarine;
+  text-shadow: 0px 0px 15px darkred;
+}
+.card-footer-g .p-fi3 {
+  font-size: 15px;
+  color: orange;
+  text-shadow: 0px 0px 30px blanchedalmond;
+  margin-top: 95px;
+}
+.card-footer-g .p-fi4 {
+  font-size: 15px;
+  color: darkred;
+  margin-top: 30px;
+}
+
+.card-footer-g:hover {
+  transition: all 0.5s;
+  transform: scale(1.09);
+}
+
+.card-g1 {
+  background-image: url(../img/boy-gade.jpg);
+}
+
+.card-g2 {
+  background-image: url(../img/velaenpalma.jpg);
+}
+
+.card-g3 {
+  background-image: url(../img/contacto.jpg);
+}
+
+.card-g4 {
+  background-image: url(../img/cielo.jpg);
+}
+
 .navbar-brand {
   color: lightsalmon;
   text-shadow: 0 0 10px orange;

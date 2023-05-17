@@ -74,4 +74,70 @@ aside.col-sm-12.col-md-6{
             border: 2px solid aquamarine;
         }
 
+a{
+    text-decoration: none;
+}
+.card-footer-g{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../img/cielo.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .footer-t{
+        font-size: 35px;
+        padding-bottom: 10px;
+        color: $clightsalmon;
+    }
+
+
+    .p-fi1{
+        font-size: 15px;
+        color: $cborang;
+        margin-top: 75px;
+    }
+    .p-fi2{
+        font-size: 15px;
+        text-align: left;
+        color: $cbaquamarine;
+        text-shadow: 0px 0px 15px $cdarkred;
+    }
+    .p-fi3{
+        font-size: 15px;
+        color:$corange;
+        text-shadow: 0px 0px 30px $cfblanchedalmond;
+        margin-top: 95px;
+    }
+    .p-fi4{
+        font-size: 15px;
+        color: $carkred;
+        margin-top: 30px;
+        
+    }
+}
+.card-footer-g:hover{
+    transition: all 0.5s;
+    transform: scale(1.09);
+    
+}
+
+.card-g1{
+    background-image: url(../img/boy-gade.jpg);
+}
+.card-g2{
+    background-image: url(../img/velaenpalma.jpg);
+}
+.card-g3{
+    background-image: url(../img/contacto.jpg);
+}
+.card-g4{
+    background-image: url(../img/cielo.jpg);
+}
+
 // index - fin
