@@ -62,8 +62,6 @@ h2.galeria{
         background-color: aqua;
         border: 5px solid orangered;
         border-radius: 10px;
-        background-size: cover;
-        background-position: center;
         filter: grayscale(55%);
     }
 }
@@ -118,6 +116,10 @@ h2.galeria{
     .nav-link{
         font-size: 20px;
     }
+
+    .copy{
+        font-size: 20px;
+    }
     
 }
 
@@ -134,6 +136,11 @@ h2.galeria{
     .nav-link{
         font-size: 22px;
     }
+    
+    .copy{
+        font-size: 50px;
+    }
+
 
     h2.galeria{
         font-size: 50px;
@@ -209,7 +216,7 @@ h2.galeria{
             height: 380px;
         }
 
-        .footer-p{
+        .footer-g{
             font-size: 35px;
         }
         footer i{
@@ -279,9 +286,10 @@ h2.galeria{
         height: 400px;
     }
 
-    .footer-p{
+    .footer-g{
         font-size: 50px;
     }
+    
     footer i{
         font-size: 65px;
         margin-bottom: 20px;

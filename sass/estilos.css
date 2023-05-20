@@ -14,6 +14,17 @@
 .banner-image .i-1 {
   color: lightsalmon;
   text-shadow: 0px 0px 15px orange;
+  position: absolute;
+  right: 63%;
+  top: 50%;
+  font-weight: bold;
+}
+.banner-image .poema-inicio {
+  color: lightsalmon;
+  font-size: 15px;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .navbar-brand {
@@ -58,6 +69,7 @@ aside.col-sm-12.col-md-6 {
   font-size: 30px;
   padding: 30px;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .aside-2 {
@@ -72,6 +84,7 @@ aside.col-sm-12.col-md-6 {
   background-color: aquamarine;
   padding: 5px 15px 5px 15px;
   border: 2px solid orange;
+  font-weight: bold;
 }
 
 .btn:hover {
@@ -88,6 +101,7 @@ a {
   height: 230px;
   display: inline-flex;
   border-radius: 10px;
+  box-shadow: 6px 6px 9px black;
   padding: 15px 25px;
   box-sizing: border-box;
   cursor: pointer;
@@ -140,6 +154,7 @@ a {
 .card-footer-g:hover {
   transition: all 0.5s;
   transform: scale(1.09);
+  box-shadow: 6px 6px 9px orange;
 }
 
 .card-g1 {
@@ -250,8 +265,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -264,8 +277,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -278,8 +289,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -292,8 +301,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -306,8 +313,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -320,8 +325,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -334,8 +337,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -348,8 +349,6 @@ h2.galeria {
   background-color: aqua;
   border: 5px solid orangered;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
   filter: grayscale(55%);
 }
 
@@ -434,6 +433,9 @@ h2.galeria {
   .nav-link {
     font-size: 20px;
   }
+  .copy {
+    font-size: 20px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .galeria2-grids {
@@ -445,6 +447,9 @@ h2.galeria {
   }
   .nav-link {
     font-size: 22px;
+  }
+  .copy {
+    font-size: 50px;
   }
   h2.galeria {
     font-size: 50px;
@@ -511,7 +516,7 @@ h2.galeria {
   .item {
     height: 380px;
   }
-  .footer-p {
+  .footer-g {
     font-size: 35px;
   }
   footer i {
@@ -572,7 +577,7 @@ h2.galeria {
   .item {
     height: 400px;
   }
-  .footer-p {
+  .footer-g {
     font-size: 50px;
   }
   footer i {
@@ -721,6 +726,7 @@ h2.galeria {
   color: aquamarine;
   text-shadow: 0 0 15px black;
   margin-bottom: 0px;
+  font-weight: bold;
 }
 
 .servicios-s {
@@ -729,20 +735,133 @@ h2.galeria {
   height: auto;
   padding: 40px;
 }
+.servicios-s .cielo-icon {
+  background-image: url("../img/cielo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.servicios-s .laboratorio-icon {
+  background-image: url("../img/laboratorio.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.servicios-s .bosque-icon {
+  background-image: url("../img/bosque.jpg");
+  background-size: cover;
+  background-position: center;
+}
 .servicios-s .caja {
-  background-color: rgba(225, 212, 224, 0.843);
   text-align: center;
-  color: rgb(12, 79, 79);
+  color: darkslateblue;
   text-shadow: 0 0 5px aqua;
   font-size: 40px;
-  border: 2px solid wheat;
+  border-radius: 10px;
+  box-shadow: 6px 6px 9px black;
   height: 300px;
   padding: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
-.servicios-s .p-s {
+.servicios-s .caja2 {
+  color: aquamarine;
+}
+.servicios-s .caja3 {
+  color: orange;
+}
+
+.p-s {
   text-align: center;
   font-size: 25px;
   padding: 30px 20% 0px 20%;
+  color: rgb(22, 88, 108);
+  text-shadow: none;
+}
+
+.p-s2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 30px 20% 0px 20%;
+  color: orange;
+  text-shadow: none;
+}
+
+.p-s3 {
+  text-align: center;
+  font-size: 25px;
+  padding: 30px 20% 0px 20%;
+  color: wheat;
+  text-shadow: none;
+}
+
+.servicios-envios {
+  background-color: darkseagreen;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.servicios-envios .servicios {
+  height: 550px;
+  width: 30%;
+  background-color: darkred;
+  border: 3px solid black;
+  box-shadow: 2px 2px 15px 1px gold;
+  padding: 0px;
+}
+.servicios-envios .servicios:hover {
+  transform: scale(1.09);
+  transition: all 0.9s;
+}
+.servicios-envios .servicios1 .servicios-img {
+  background-image: url(../img/repartidora.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 15px;
+  padding-top: 0px;
+}
+.servicios-envios .servicios2 .servicios-img {
+  background-image: url(../img/entrega.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 15px;
+}
+.servicios-envios .servicios3 .servicios-img {
+  background-image: url(../img/artista.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 15px;
+}
+.servicios-envios h2.envios-s {
+  text-align: center;
+  font-size: 25px;
+  color: orange;
+  text-shadow: 0px 0px 15px coral;
+  margin-bottom: 15px;
+}
+.servicios-envios p.envios-s3 {
+  text-align: center;
+  font-size: 15px;
+  color: darkkhaki;
+  text-shadow: 0px 0px 15px black;
+}
+
+.card-redes {
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-redes a {
+  text-decoration: none;
+  color: lightsalmon;
+  font-size: 40px;
+  letter-spacing: 20px;
+  padding-bottom: 10px;
+}
+
+.card-redes i:hover {
+  color: darkkhaki;
 }
 
 .contacto-c {

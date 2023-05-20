@@ -10,6 +10,17 @@
     .i-1{
         color: $clightsalmon;
         text-shadow: 0px 0px 15px $csorange;
+        position: absolute;
+        right: 63%;
+        top: 50%;
+        font-weight: bold;
+    }
+    .poema-inicio{
+        color: $clightsalmon;
+        font-size: 15px;
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
     }
 }
 
@@ -53,6 +64,7 @@ aside.col-sm-12.col-md-6{
     font-size: 30px;
     padding: 30px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .aside-2{
@@ -67,6 +79,7 @@ aside.col-sm-12.col-md-6{
             background-color: aquamarine;
             padding: 5px 15px 5px 15px;
             border: 2px solid orange;
+            font-weight: bold;
         }
         
         .btn:hover{
@@ -83,6 +96,7 @@ a{
     height: 230px;
     display: inline-flex;
     border-radius: 10px;
+    box-shadow: 6px 6px 9px $csblack;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
@@ -90,6 +104,7 @@ a{
     background-image: url(../img/cielo.jpg);
     background-position: center;
     background-size: cover;
+    
 
     .footer-t{
         font-size: 35px;
@@ -136,6 +151,7 @@ a{
 .card-footer-g:hover{
     transition: all 0.5s;
     transform: scale(1.09);
+    box-shadow: 6px 6px 9px $corange;
     
 }
 
