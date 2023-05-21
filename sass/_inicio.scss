@@ -91,6 +91,86 @@ a{
     text-decoration: none;
 }
 
+.tik-tok{
+    .titulo-tok{
+    background-color: $cbwheat;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    padding-top: 20px;
+    color: $cdarkslateblue5;
+    margin-bottom: 0px;
+}
+.videos-tik-tok{
+    display: flex;
+    justify-content: space-between;
+    background-color: $cfcadetblue;
+    height: 100vh;
+    width: 100%;
+}
+}
+
+.comprender{
+    height: 900px;
+    width: 100%;
+    background-color: $cfdarkseagreen;
+
+    .titulo-inicio{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+    .texto-inicio1{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0px 20% 0px 20% ;
+    }
+
+    .subtitulo-inicio1{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+    .texto-inicio2{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0px 20% 0px 20% ;
+    }
+
+    .dato-inicio{
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+
+
+    .btn-comprender{
+        color: $corange;
+        width: 15%;
+        background-color: $cfteal;
+        padding: 5px 15px 5px 15px;
+        border: 2px solid $cdarkred;
+        border-radius: 7px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: 42%;
+        }
+        
+    .btn-comprender:hover{
+        background-color: $cbrbg2;
+        border: 2px solid $corange;
+        color: $cdarkred;
+        }
+
+}
+
+
 .card-footer-g{
     width: 200px;
     height: 230px;

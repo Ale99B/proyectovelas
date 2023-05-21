@@ -96,6 +96,74 @@ a {
   text-decoration: none;
 }
 
+.tik-tok .titulo-tok {
+  background-color: wheat;
+  text-align: center;
+  font-size: 30px;
+  height: 100px;
+  padding-top: 20px;
+  color: darkslateblue;
+  margin-bottom: 0px;
+}
+.tik-tok .videos-tik-tok {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  height: 100vh;
+  width: 100%;
+}
+
+.comprender {
+  height: 900px;
+  width: 100%;
+  background-color: darkseagreen;
+}
+.comprender .titulo-inicio {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+.comprender .texto-inicio1 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0px 20% 0px 20%;
+}
+.comprender .subtitulo-inicio1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+.comprender .texto-inicio2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0px 20% 0px 20%;
+}
+.comprender .dato-inicio {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.comprender .btn-comprender {
+  color: orange;
+  width: 15%;
+  background-color: teal;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid darkred;
+  border-radius: 7px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 42%;
+}
+.comprender .btn-comprender:hover {
+  background-color: rgb(110, 101, 19);
+  border: 2px solid orange;
+  color: darkred;
+}
+
 .card-footer-g {
   width: 200px;
   height: 230px;
