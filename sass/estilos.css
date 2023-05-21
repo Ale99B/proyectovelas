@@ -663,14 +663,14 @@ h2.galeria {
   transition: all 0.9s;
 }
 .team-n .card1 .card-img {
-  background-image: url(../img/artista.jpg);
+  background-image: url(../img/ceramic.jpg);
   background-position: center;
   background-size: cover;
   height: 200px;
   margin-bottom: 15px;
 }
 .team-n .card2 .card-img {
-  background-image: url(../img/artista.jpg);
+  background-image: url(../img/boy-gade.jpg);
   background-position: center;
   background-size: cover;
   height: 200px;
