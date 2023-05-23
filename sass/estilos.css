@@ -270,6 +270,16 @@ footer i:hover {
   margin-top: 20px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .footer-t {
+    font-size: 60px;
+    color: black;
+  }
+  .footer-t1 {
+    font-size: 80px;
+    color: aqua;
+  }
+}
 .navbar-brand {
   color: lightsalmon;
   text-shadow: 0 0 10px orange;
@@ -1022,4 +1032,20 @@ h1.formulario {
 
 .form__text::placeholder {
   font-size: 20px;
+}
+
+@media only screen and (min-width: 1440px) {
+  h1.formulario {
+    font-size: 60px;
+  }
+  .form__label {
+    font-size: 40px;
+  }
+  .form__input {
+    font-size: 30px;
+  }
+  .enviar {
+    font-size: 40px;
+    height: 100px;
+  }
 }/*# sourceMappingURL=estilos.css.map */

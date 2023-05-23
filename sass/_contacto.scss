@@ -91,3 +91,26 @@ h1.formulario{
 }
 
 
+// responsive - inicia
+
+@media only screen and (min-width:1440px){
+    h1.formulario{
+        font-size: 60px;
+    }
+
+    .form__label{
+        font-size: 40px;
+    }
+
+    .form__input{
+        font-size: 30px;
+    }
+
+    .enviar{
+        font-size: 40px;
+        height: 100px;
+    }
+}
+
+// responsive - fin
+
